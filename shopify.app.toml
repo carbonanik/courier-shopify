@@ -2,7 +2,7 @@
 
 client_id = "7a9ae809139d382218d8b290306bdf6a"
 name = "courier"
-application_url = "https://larger-dictionaries-pair-prize.trycloudflare.com"
+application_url = "https://tables-abu-sees-zero.trycloudflare.com"
 embedded = true
 
 [build]
@@ -12,13 +12,13 @@ include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "read_orders,write_products"
 
 [auth]
 redirect_urls = [
-  "https://larger-dictionaries-pair-prize.trycloudflare.com/auth/callback",
-  "https://larger-dictionaries-pair-prize.trycloudflare.com/auth/shopify/callback",
-  "https://larger-dictionaries-pair-prize.trycloudflare.com/api/auth/callback"
+  "https://tables-abu-sees-zero.trycloudflare.com/auth/callback",
+  "https://tables-abu-sees-zero.trycloudflare.com/auth/shopify/callback",
+  "https://tables-abu-sees-zero.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
